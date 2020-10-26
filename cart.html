@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="alert/alert.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrap">
+<!-- ALERT- -->
+    <div class="alert hide">
+      <span class="fas kind"></span>
+
+      <span class="msg">Lorem ipsum dolor sit.</span>
+      <span class="close-btn">
+        <span class="fas fa-times"></span>
+      </span>
+    </div>
+    <!--                           -->
+    <a href="cart.html"><div class="mini-cart"><span class="mini-cart__circle"></span></div></a>
+    <div class="menu">
+
+      <!-- adaptive menu -->
+            <div class="mobile__menu">Меню <span class="fa fa-align-justify"></span></div>
+            <div class="mobile__menu-list">
+              <a href="index.html" ><span data-hover="Головна">Головна</span></a>
+              <a href="goods.html"><span data-hover="Товари">Товари</span></a>
+              <a href="cart.html"><span data-hover="Кошик">Кошик</span></a>
+              <a href="contacts.html"><span data-hover="Контакти">Контакти</span></a>
+            </div>
+      <!--  -->
+
+          <nav class="menu__list">
+            <a href="index.html" ><span data-hover="Головна">Головна</span></a>
+            <a href="goods.html"><span data-hover="Товари">Товари</span></a>
+            <a href="cart.html"><span data-hover="Кошик">Кошик</span></a>
+            <a href="contacts.html"><span data-hover="Контакти">Контакти</span></a>
+          </nav>
+
+    </div>
+    <div class="content">
+      <div class="container">
+
+
+
+              <div class="main-cart">
+                <div class="main-cart__empty"><p class="empty">Кошик пустий!</p><p class="empty-link"><a href="goods.html">Перейти до покупок</a></p></div>
+                <div class="main-cart__status"></div>
+                <div class="main-cart__list"></div>
+              </div>
+
+              <div class="user__data">
+                <span>Форма відправки</span>
+                <div class="email__field">
+                  <p>
+                    <label for="">Ім'я</label>
+                    <input id="name" type="text">
+                  </p>
+                  <p>
+                    <label for="">Прізвище</label>
+                    <input id="surname" type="text">
+                  </p>
+                  <p>
+                    <label for="">По батькові</label>
+                    <input id="fathername" type="text">
+                  </p>
+                  <p>
+                    <label for="">Телефон</label>
+                    <input id="phone" type="text">
+                  </p>
+                  <p>
+                    <label for="">E-mail</label>
+                    <input id="mail" type="text">
+                  </p>
+                  <p>
+                    <label for="">Місто/Село</label>
+                    <input id="location" type="text">
+                  </p>
+                  <p>
+                    <label for="">Поштовий індекс</label>
+                    <input id="index" type="text">
+                  </p>
+                  <p>
+                    <label for="">Спосіб доставки</label>
+                    <input id="way" type="text">
+                  </p>
+                  <p>
+                    <label for="">Номер відділення</label>
+                    <input id="number" type="text">
+                  </p>
+                  <p>
+                    <label for="">Коментар</label>
+                    <textarea id="textarea"></textarea>
+                  </p>
+                  <p><button class="send__email">Відправити</button></p>
+                </div>
+              </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="alert/alert.js"></script>
+  <script src="js/media.js"></script>
+
+</body>
+</html>
